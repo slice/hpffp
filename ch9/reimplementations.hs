@@ -72,4 +72,4 @@ myMaximum :: (Ord a) => [a] -> a
 myMaximum = myMaximumBy compare
 
 myMinimum :: (Ord a) => [a] -> a
-myMinimum = undefined
+myMinimum = myMinimumBy compare
